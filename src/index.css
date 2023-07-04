@@ -1,3 +1,6 @@
+/* @@@@@@@@@@@@@@@@ OUR PROJECT IS SMALL HENCE IMPLEMENT ALL CSS HERE ONLY @@@@@@@@@@@@@@ */
+
+/************************ GLOBAL VARIABLES *****************************/
 :root {
   --color-A: #712cf9;
   --color-B: white;
@@ -20,6 +23,7 @@ code {
     monospace;
 }
 
+/********************* HEADER COMPONENT *******************************/
 .header {
   height: 70px;
   width: 100vw;
@@ -38,6 +42,7 @@ code {
   padding-left: 20px;
 }
 
+/********************* FOOTER COMPONENT ********************************/
 .footer {
   height: 70px;
   width: 100vw;
@@ -55,6 +60,7 @@ code {
   text-align: center;
 }
 
+/************************* HOMEPAGE ***********************************/
 h2 {
   opacity: 0.8;
 }
