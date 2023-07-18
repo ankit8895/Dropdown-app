@@ -1,3 +1,13 @@
+# React App with Dropdown Component
+
+https://ankit8895.github.io/Dropdown-app/
+
+The React app being developed is a user interface that incorporates a dropdown component with specific features. The primary functionality of the app is to display a dropdown list when the user hovers over a button. The dropdown list will contain various items, which are provided to the dropdown component through an items array.
+
+Upon hovering over the designated button, the dropdown component will respond by revealing a list of items below it. The items displayed in the dropdown list are determined by the items array passed as a prop to the dropdown component.
+
+In addition to the hover functionality, the app also includes the ability to select an option from the dropdown list. When the user clicks on an item in the list, the dropdown component will close, providing a seamless user experience. This interaction allows users to quickly access and choose options from the dropdown without requiring additional steps.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
