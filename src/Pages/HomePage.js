@@ -31,7 +31,7 @@ const HomePage = ({ items }) => {
     <>
       <div className='dropdown' onClick={clickHandler}>
         <h1>Should you use a dropdown ?</h1>
-        <h2>{optionValue}</h2>
+        <h2>{optionValue !== '' ? optionValue : <span>&nbsp;</span>}</h2>
         <div className='dropdown-btn'>
           <button onMouseOver={mouseOverHandler}>Dropdown</button>
           <div className='dropdown-content'>
